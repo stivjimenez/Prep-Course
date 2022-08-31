@@ -1,0 +1,74 @@
+Este es un intento de explicacion de terminos a un niño de 12 años.
+
+Hablaremos primero de que son las VARIABLES
+
+Las variables son una forma de encapsular información o un valor para usarla luego
+Para activar una variable solo debemos utilizar la abreviacion VAR luego dentro del parentesis asignamos el valor a la variable
+tambien podemos asiganrle el valor con el simbolo = 
+
+Tambien es un tema principal las FUNCIONES 
+En el lenguaje js son objetos importantes llamados callable objects u Objetivos Invocables, es igual que un objeto 
+
+Cuando ya conocemos las variables, necesitamos las funciones para caulcular o medir algo con ellas, 
+para esto hay 3 formas de crear una funcion
+
+Anatomia de uan funcion 
+
+function SALUDO ( ) {} 
+
+Una funcion siempre comienza con la palabra clave function 
+esta palabra indica al procesador que el siguiente paso es una funcion 
+Luego viene el nombre de la funcion, es mejor elegir un nombre que describa lo que hace dicha funcion 
+Por ultimo parentesis abierto y cerrado + corchetes donde estará todo el codigo que queremos ejecutar.
+
+Ahora hablemos de los ARGUMENTOS 
+ya ejecutando funciones basicas podemos agregarle los argumentos, son variables para estas funciones
+por ejemplo nombre = 'matias'
+
+function saludo ('Hola' + Nombre) {
+    var nombre = Matias;
+    return Hola + nombre
+}
+
+Ahora veamos un ejemplo de otra funcion con otros argumentos, recuerda que puedes agregar argumentos con una coma entre ellos 
+
+Function sumardosnumeros (a, b){
+    var suma = a + b; 
+    return suma; 
+}
+
+
+Ahora hablemos de la declaración RETURN
+
+Cada vez que creamos una funcion vamos a querer comprobar el resultado de dicha funcion, para eso usamos la declaracion return 
+
+function RestarDosNumeros (a, b) {
+    var restar = a - b;
+    return restar;
+}
+
+Es lo que queremos como retorno de la funcion aplicada
+
+AHORA hablemos de la declaracion if
+Es una forma de verificar que la funcion verifique si algo es true, se puede verificar ejecutando codigo o avanzando si no lo es,
+para esto siempre usaremos la palabra cavle IF 
+
+ejemplo:
+
+function PuedeManejar (edad) {
+    if (edad > 18) {
+        return true;
+    } return false; 
+}
+PuedeManejar (22); // true
+
+
+Aqui estamos declarando la variable edad como metodo de comprobacion, verificando si el valor otorgado es mayor que 18,
+en caso de ser así, la funcion marcara true, de lo contrario de detendra y devolvera false.
+
+Otro factor importante son los valores booleanos 
+
+Estos valores determinan procesos de funciones, podemos combinar los argumentos y avriables para generar más fucniones
+creado deciciones con true / false, así el interprete o procesador puede decidir por donde ir para resolver dicho proceso.
+corresponde o es muy parecido al procesamiento por codigo binario para toma de deciciones en procesamiento 
+En JS se denominan valore booleanos 
