@@ -1,0 +1,33 @@
+Hoy vamos a hablar de los operadores logicos 
+Nosotros podemos combinar dos expresiones de igualdad y preguntar si son verdaderas, si una es verdadera o si ninguna es verdadera 
+
+hay tres operadores logicos principales 
+
+-AND ó && 
+Este operador evalua las dos variables y devolvera true si las 2 son true 
+ejemplo:
+
+if (20 > 9 && 10 === 10) // ambas son verdaderas, reusltado true, SI se ejecuta el codigo
+
+if (100 > 9 && 10 === 9) // Una de las dos es verdadera, resultado false, NO se ejecuta el codigo 
+
+-OR ó || 
+Este operador evalua si al menos una de las expresiones es verdadera, 
+devolvera false si ambas son false 
+ejemplo:
+
+if (200 === 20 || 20 === 20) // una de las declaraciones es true, devolvera true y se ejecutara el codigo
+
+-NOT ó !
+Este operador nos dara el resultado contario al esperado
+ejemplo:
+
+if (!false) // devolvera true por el operador logico y se ejecutara el codigo
+
+ACLARACIONES 
+Todas las expresiones se leen en orden 
+La computadora omite todas la operaciones redundantes 
+&& = si la primera es falsa, se detiene ambas deben ser true para que se active 
+|| = si la primera es verdadera, se ejecuta el codigo, solo se necesita 1 true para activarse
+
+Usa parentesis para evaluar primero lo que esta dentro del parentesis y luego lo que esta afuera 

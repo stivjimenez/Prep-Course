@@ -6,7 +6,9 @@
   "scripts": {
     "start": "eleventy --serve",
     "build": "eleventy",
-    "test": "jest --collectCoverage=false --testResultsProcessor ./.reporter/index.js --detectOpenHandles"
+    "test": "jest --collectCoverage=false --testResultsProcessor ./.reporter/index.js --detectOpenHandles",
+    "watch": "jest --collectCoverage=false --watch"
+
   },
   "devDependencies": {
     "@11ty/eleventy-plugin-syntaxhighlight": "^3.1.3",
